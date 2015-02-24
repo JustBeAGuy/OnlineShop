@@ -1,0 +1,15 @@
+#admin_cart_table_head div,
+#admin_cart_pages div{
+    display: inline-block;
+}
+
+.admin_cart_table_sorting:hover,
+#admin_cart_pages div:hover{
+    background-color: #808080;
+    cursor:hand;
+}
+
+input[type="number"] {
+    height:30px;
+    margin: 0;
+}

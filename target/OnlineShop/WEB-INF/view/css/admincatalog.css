@@ -1,0 +1,18 @@
+#admin_catalog_table_head div,
+#admin_catalog_pages div{
+    display: inline-block;
+}
+
+.admin_catalog_table_sorting:hover,
+#admin_catalog_pages div:hover{
+    background-color: #808080;
+    cursor:hand;
+}
+
+input[type="number"] {
+    height:30px;
+}
+
+.admin_catalog_img {
+    height: 50px;
+}

@@ -1,0 +1,9 @@
+INFO    2015-02-24 21:33:23,405 [RMI TCP Connection(2)-127.0.0.1] com.epam.kiev.onlineshop.listener.ContextListener  - LogProperties is uploaded
+INFO    2015-02-24 21:33:23,438 [RMI TCP Connection(2)-127.0.0.1] com.epam.kiev.onlineshop.filter.CategoryFilter  - Filter category is initialized
+INFO    2015-02-24 21:33:25,007 [http-apr-80-exec-2] com.epam.kiev.onlineshop.filter.CategoryFilter  - URL ADDED
+INFO    2015-02-24 21:33:31,022 [http-apr-80-exec-2] com.epam.kiev.onlineshop.tag.AddKeyValueJS  - Command and param are: 'command':'index', 'reset' : 'true'  URL : /
+INFO    2015-02-24 21:33:31,085 [http-apr-80-exec-4] com.epam.kiev.onlineshop.filter.CategoryFilter  - URL ADDED
+INFO    2015-02-24 21:33:31,112 [http-apr-80-exec-4] com.epam.kiev.onlineshop.tag.AddKeyValueJS  - Command and param are: 'command':'index', 'reset' : 'true'  URL : /
+INFO    2015-02-24 21:33:38,362 [http-apr-80-exec-6] com.epam.kiev.onlineshop.filter.CategoryFilter  - URL ADDED
+INFO    2015-02-24 21:33:38,404 [http-apr-80-exec-6] com.epam.kiev.onlineshop.tag.AddKeyValueJS  - Command and param are: 'command':'index', 'reset' : 'true'  URL : /
+INFO    2015-02-24 21:33:39,151 [http-apr-80-exec-7] com.epam.kiev.onlineshop.servlet.MainServlet  - Servlet Active

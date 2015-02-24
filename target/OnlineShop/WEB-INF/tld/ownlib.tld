@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib version= "2.1"
+        xmlns= "http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation= "http://java.sun.com/xml/ns/javaeeweb-jsptaglibrary_2_1.xsd">
+<!--дескриптор библиотеки тегов -->
+    <tlib-version> 1.0 </tlib-version>
+    <short-name> ownlib </short-name>
+    <uri> /WEB-INF/tld/ownlib.tld </uri>
+    <tag>
+        <name> getKeyValueJS </name>
+        <tag-class> com.epam.kiev.onlineshop.tag.AddKeyValueJS </tag-class>
+        <body-content> empty </body-content>
+    </tag>
+    <tag>
+        <name> outLoginFromSession </name>
+        <tag-class>com.epam.kiev.onlineshop.tag.OutLoginFromSession</tag-class>
+        <body-content> empty </body-content>
+        <attribute>
+            <name> attr </name>
+            <required> true </required>
+            <rtexprvalue> false </rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name> include </name>
+        <tag-class> com.epam.kiev.onlineshop.tag.Include </tag-class>
+        <body-content> empty </body-content>
+        <attribute>
+            <name> page </name>
+            <required> true </required>
+            <rtexprvalue> false </rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name> outConfig </name>
+        <tag-class> com.epam.kiev.onlineshop.tag.OutConfig </tag-class>
+        <body-content> empty </body-content>
+        <attribute>
+            <name> config </name>
+            <required> true </required>
+            <rtexprvalue> false </rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name> textOut </name>
+        <tag-class> com.epam.kiev.onlineshop.tag.TextOut </tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name> text </name>
+            <required> true </required>
+            <rtexprvalue> false </rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name> outCatalog </name>
+        <tag-class> com.epam.kiev.onlineshop.tag.OutCatalog </tag-class>
+        <body-content> empty </body-content>
+    </tag>
+    <tag>
+        <name> outGood </name>
+        <tag-class> com.epam.kiev.onlineshop.tag.OutGood </tag-class>
+        <body-content> empty </body-content>
+    </tag>
+</taglib>

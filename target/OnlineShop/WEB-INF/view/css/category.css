@@ -1,0 +1,20 @@
+.good_img img {
+    /*width: 120px;*/
+    height: 100px;
+}
+
+#category_table_head div,
+#category_pages div{
+    display: inline-block;
+}
+
+.category_table_sorting:hover,
+#category_pages div:hover{
+    background-color: #808080;
+    cursor:hand;
+}
+
+input[type="number"] {
+    height:30px;
+    margin: 0;
+}

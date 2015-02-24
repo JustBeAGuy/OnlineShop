@@ -1,0 +1,15 @@
+#admin_users_table_head div,
+#admin_users_pages div{
+    display: inline-block;
+}
+
+.admin_users_table_sorting:hover,
+#admin_users_pages div:hover{
+    background-color: #808080;
+    cursor:hand;
+}
+
+input[type="number"] {
+    height:30px;
+    margin: 0;
+}

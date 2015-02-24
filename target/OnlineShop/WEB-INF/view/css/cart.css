@@ -1,0 +1,19 @@
+.good_img img {
+    height: 100px;
+}
+
+input {
+    width: 50px;
+}
+
+#cart_pay{
+    float: right;
+}
+
+#cart_clear{
+    float: left;
+}
+
+#cart_pay div{
+    display: inline-block;
+}

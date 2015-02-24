@@ -1,0 +1,8 @@
+.good_img {
+    max-height: 700px;
+}
+
+input[type="number"] {
+    height:30px;
+    margin: 0;
+}
