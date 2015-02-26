@@ -26,40 +26,13 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class MainServlet extends HttpServlet{
     protected void doRequest(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-//        ConnectionManager conM = ConnectionManager.getInstance();
-//        Connection connection = conM.getConnection();
-//        try {
-//            PreparedStatement pStatement = connection.prepareStatement("SELECT * FROM USERS WHERE LOGIN = ? AND PASSWORD = ?");
-//            pStatement.setString(1, "Dream");
-//            pStatement.setString(2, "Team");
-//            pStatement.execute();
-//            ResultSet rs = pStatement.getResultSet();
-//            rs.next();
-//            req.setAttribute("login",rs.getString("users.login"));
-//            req.setAttribute("password",rs.getString("users.password"));
-//        } catch (SQLException e) {
-//
-//        } catch (Exception e) {
-//
-//        }
-//        finally {
-//            conM.putConnection(connection);
-//        }
-        //req.setAttribute("name",req.getRequestURI());
+
         Logger.getLogger(MainServlet.class).info("Servlet Active");
         String page = null;
-//        try {
+
             ICommand command = CommandFactory.getInstance().getCommand(req);
             page = command.execute(req, resp);
-//        } catch (ServletException e) {
-//            e.printStackTrace();
-//            request.setAttribute("messageError", MessageManager.getInstance().getProperty(MessageManager.SERVLET_EXECPTION));
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//            request.setAttribute("messageError", MessageManager.getInstance().getProperty(MessageManager.IO_EXCEPTION));
-//
-//        }
+
         getServletContext().getRequestDispatcher(page).forward(req, resp);
     }
     @Override
